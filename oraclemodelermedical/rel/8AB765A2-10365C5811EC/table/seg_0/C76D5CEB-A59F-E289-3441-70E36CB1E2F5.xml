@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C76D5CEB-A59F-E289-3441-70E36CB1E2F5" name="doctor">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>17FDF553-3BBA-6D06-5AF7-19C5A776A99F</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="doctor_id" id="68245340-80F6-FAE7-08D0-34D93BF0D52C">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>B73585E7-A75E-4C8F-F3F9-B289EB01426B</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="0D022BB0-C3FB-B3A7-6755-311030FE5265">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>4333DDEA-08F4-B741-5F92-3E87AAAB063B</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="F1FC0002-970C-42B9-76C7-1F45B9541BA0">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>EC6BEA45-FF9D-FE04-22F4-CD4A9818AE11</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="speciality" id="DA0FDDF1-E318-C7F7-15AB-92B89FA4D07C">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>CC76A309-443F-8DE9-A8F4-C968ED574F16</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_address" id="A016E59F-FB0E-6120-BFB1-14E3763C81B4">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>B7E67F52-2E5D-59E4-F9FB-EECAB271DD24</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="D0125856-FA0F-F4E4-445F-5D6A54FDDA87">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>C3EA85AF-7299-700C-038F-3D6AE069BF64</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="E040F54E-D3D5-49DB-9238-E7E73B1AB94A">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>92BF9A37-0A2F-2454-8A91-7FFA78D8DAA8</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postal_code" id="C7F37E2B-749A-B52E-9C32-3D1B244434FB">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>BCCD35EB-43CC-E731-96E7-C14AA99722AC</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="F8F239CF-ECE5-1720-FC29-5871F6C53D3A">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>35FF5C8F-54BB-CB69-2C23-38B9C27F981B</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="F05449CD-CDB1-E642-E172-B70C5797E7E4">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>3B19DBAF-A886-6069-165C-34F1C1710A95</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D102B2A4-DC9A-748E-E638-3A000392338F" name="doctor_PK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>95D63943-9B71-AB83-E6C8-087C26A8A703</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68245340-80F6-FAE7-08D0-34D93BF0D52C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

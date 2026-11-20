@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9D84593-FA69-A3D9-36C8-CABFE218F06F" name="insurance">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>27235C39-3B7C-52ED-E1A1-7F38B675C271</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="insurance_id" id="1DFB58AB-9BEF-397D-A6EE-D8090F17D7F9">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>6D4ED9E2-ED52-8937-7C34-6B1B5A4CC2CA</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="insurance_company" id="EAF6000B-A8B9-ACC0-F9B0-407D759455C4">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>B32FC3EB-2CAB-C55F-C5D0-E772369E47E6</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18957D09-260B-9EB6-A032-E5EE8DAF8F15" name="insurance_PK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>24556A42-3F8F-1B05-1DD8-8A1C1878EBF2</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DFB58AB-9BEF-397D-A6EE-D8090F17D7F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

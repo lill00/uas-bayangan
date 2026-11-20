@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="686C990A-2A69-C90D-287B-912E2189AB09" name="pcp_history">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:31:38 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pcp_history_id" id="2BDE9F03-26F6-8C92-BC1F-FE47AE37D1B6">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:31:55 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_date" id="2A9AA04C-A4AF-8078-FECA-227EB4BEDF04">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:32:15 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date" id="2F16ACF5-BB6A-AB5E-6E56-0EB68E415401">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:32:26 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patient_id" id="351194EA-F6CB-A89C-6DDE-28C6B1FD69A6">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:48:49 UTC</createdTime>
+<generatorID>929C7C06-80F6-42A3-DBB6-1AA9BFD3B3AB</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<referedAttribute>013258FD-8B6C-F123-BB18-0645712A7DAB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="doctor_id" id="224FFFF2-8E9C-4194-C695-CD0A50FF758D">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:48:57 UTC</createdTime>
+<generatorID>AF54862F-E460-FE77-ED8B-EF116FFC1E80</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<referedAttribute>B73585E7-A75E-4C8F-F3F9-B289EB01426B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="059E08FD-5FD4-3871-CF0E-D9E6D7B50639" name="pcp_history PK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:32:14 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BDE9F03-26F6-8C92-BC1F-FE47AE37D1B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

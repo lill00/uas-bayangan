@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0C7300B-BFD0-A8AC-72F9-937DE147B5CC" name="NON_REFILLABLE_RX">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>3A38D18F-1DE9-CA9A-536A-FA539DE55133</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nonrefillable_id" id="7F217038-05FC-9F10-9C2B-9566A8BF14AC">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>E0EB4191-2AC3-5BB0-5CF9-34E1759B22EF</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="drug_id" id="94E1F4C5-FBCA-AD48-2BB5-730DA173ABBE">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>55822117-511C-0530-749F-095DE6B84FFE</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="059938AC-231C-ABF1-CB94-38B7A0B0304C" name="NON_REFILLABLE_RX_prescription_FK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>86AF26A3-9CAC-F2F9-3F96-3D3AF3105A87</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

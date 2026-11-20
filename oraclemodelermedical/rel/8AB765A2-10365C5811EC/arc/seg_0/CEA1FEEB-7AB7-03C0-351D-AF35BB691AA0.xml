@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="CEA1FEEB-7AB7-03C0-351D-AF35BB691AA0" name="FKArc_1">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>EBE65553-2126-6BD8-4F2E-5DCF9800EA18</table>
+<fkeys>
+<fkeyID>FBAB5640-828C-BC54-4211-C76ECD684750</fkeyID>
+<fkeyID>7658CBC7-4739-F559-6E04-60DC60813EB5</fkeyID>
+<fkeyID>8D731AC5-B5D3-E68E-A9B4-04CEDAAD2A41</fkeyID>
+</fkeys>
+</FKArc>

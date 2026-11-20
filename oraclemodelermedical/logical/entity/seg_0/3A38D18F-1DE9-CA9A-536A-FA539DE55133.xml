@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A38D18F-1DE9-CA9A-536A-FA539DE55133" name="NON_REFILLABLE_RX">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:27:25 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nonrefillable_id" id="E0EB4191-2AC3-5BB0-5CF9-34E1759B22EF">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:27:53 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drug_id" id="55822117-511C-0530-749F-095DE6B84FFE">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:03:50 UTC</createdTime>
+<generatorID>86AF26A3-9CAC-F2F9-3F96-3D3AF3105A87</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<referedAttribute>2F63418B-E814-7E9C-5CEA-E5DEC28EEDF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

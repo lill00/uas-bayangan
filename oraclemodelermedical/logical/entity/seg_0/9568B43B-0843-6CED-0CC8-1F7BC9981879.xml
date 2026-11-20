@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9568B43B-0843-6CED-0CC8-1F7BC9981879" name="hospital">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 01:52:40 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="hospital_id" id="47861341-73CC-5181-7383-059AC7B863FD">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 01:53:00 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hospital_name" id="EF54D9A5-18B8-06CF-5EDC-F2CE138BD825">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 01:53:31 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_address" id="AC7FBFD6-E023-2F94-E214-87FCEB0DCCE5">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 01:53:57 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="E338F3D8-87A7-91F3-B481-E0E64E7CC50D">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 01:54:51 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="33B9D1D7-BACE-9EB5-C42E-49223E0AC310">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 01:55:50 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postal_code" id="9AE06C17-A1C1-58FC-107E-C989A60C9726">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 01:55:03 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="EE6C9CA3-A9EA-8DD8-5D1E-9F60E32A1477">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 01:55:18 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="C5129892-49C4-DA10-14D1-CD026E443A14">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 01:55:34 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8278F9F1-7067-41F5-8E02-895E0043896A" name="hospital PK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 01:53:29 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>47861341-73CC-5181-7383-059AC7B863FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

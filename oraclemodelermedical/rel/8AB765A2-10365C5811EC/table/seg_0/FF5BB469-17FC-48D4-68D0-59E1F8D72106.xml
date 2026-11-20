@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF5BB469-17FC-48D4-68D0-59E1F8D72106" name="pcp_history">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>686C990A-2A69-C90D-287B-912E2189AB09</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pcp_history_id" id="88FD01F7-C704-2620-F6D2-ED18DBE21C5B">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>2BDE9F03-26F6-8C92-BC1F-FE47AE37D1B6</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="47671B6F-1BD3-5CB4-8F5B-8DF2528509A9">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>2A9AA04C-A4AF-8078-FECA-227EB4BEDF04</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="4C6BCC8D-1E25-92E0-28ED-E6F43A55FE33">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>2F16ACF5-BB6A-AB5E-6E56-0EB68E415401</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patient_patient_id" id="4BF7ED38-7BCF-995B-54CE-33358023AB33">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>351194EA-F6CB-A89C-6DDE-28C6B1FD69A6</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AAAC47C-A327-010B-6BEE-BF9A7AB25558" referredColumn="ADB0DBA3-99C5-201A-03D1-C492B13B10E2"/>
+</associations>
+</Column>
+<Column name="doctor_doctor_id" id="9C05D8A5-99A8-1C15-A3C8-62E0FD7DD5F6">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>224FFFF2-8E9C-4194-C695-CD0A50FF758D</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3AD1C9C-7D31-7D41-B5C0-4C5E1CFF13E4" referredColumn="68245340-80F6-FAE7-08D0-34D93BF0D52C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A253381F-D8BE-CC18-BAB2-BE39F5967ECC" name="pcp_history_PK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>059E08FD-5FD4-3871-CF0E-D9E6D7B50639</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88FD01F7-C704-2620-F6D2-ED18DBE21C5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F394421-BEC6-1BA4-8EF6-F305FA6CC5CB" name="pcp_history_patient_FK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>929C7C06-80F6-42A3-DBB6-1AA9BFD3B3AB</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BF7ED38-7BCF-995B-54CE-33358023AB33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD7E1A3E-EE72-9757-723E-40F8B50F52B2" name="pcp_history_doctor_FK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>AF54862F-E460-FE77-ED8B-EF116FFC1E80</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C05D8A5-99A8-1C15-A3C8-62E0FD7DD5F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

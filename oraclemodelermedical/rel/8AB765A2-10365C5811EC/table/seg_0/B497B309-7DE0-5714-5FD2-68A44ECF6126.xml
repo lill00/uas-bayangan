@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B497B309-7DE0-5714-5FD2-68A44ECF6126" name="prescription">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>AF35379E-24D2-2915-AFA6-AA7E8E27F261</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prescription_id" id="D066AF29-ADDE-C07D-1AF3-807A3AA030D5">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>E3C9122F-0CE4-2799-C8D5-B6FB0B2B9870</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prescription_date" id="67D47F65-1004-51F8-B3D7-A5BFEB2FE035">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>22F9E483-D874-FFB3-A62D-DED799DF1D18</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dosage" id="90BCC64D-949B-3669-9802-19B6D481ACA6">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>C7CE4475-F1EA-2AC0-9839-001839A70B5E</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duration" id="A35C0D43-6EA4-0569-3629-44BFD98AB3AF">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>6D862DF5-655B-3F35-5449-DBE501B36E00</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="drug_drug_id" id="557884AC-531F-ED9F-B767-62692A285D4D">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>A2E1C892-7C29-029B-4DFF-87565BAFFC9E</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D92A6ED4-732B-6FCF-9F08-16EFAC93F6FD" referredColumn="2AFF94D6-C088-0289-F9FE-DA9BA32C7B75"/>
+</associations>
+</Column>
+<Column name="patient_patient_id" id="59D91539-1B39-852D-A13E-4617B2E91EA8">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>743E75C7-3D74-F5D3-D60D-BD8D624650CE</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9761001A-AC33-DE0F-0C78-1260B4905371" referredColumn="ADB0DBA3-99C5-201A-03D1-C492B13B10E2"/>
+</associations>
+</Column>
+<Column name="doctor_doctor_id" id="FBFB8AF5-593A-741D-B0BA-B3D5A62BE338">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>73D298A9-BFF8-E817-B8A3-B204E6F841DE</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36C91343-FAC8-8AC3-5D6D-96AF8A02CBE7" referredColumn="68245340-80F6-FAE7-08D0-34D93BF0D52C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0407321B-39CD-22D8-FC60-98FE4DE617EE" name="prescription_PK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>F4F6FE8F-4D9B-03D0-85D6-6CCAA80AF7B7</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D066AF29-ADDE-C07D-1AF3-807A3AA030D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D252618A-F2CD-F742-A793-12ECDE9EE497" name="prescription_patient_FK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>1C6FBB53-4B80-6F35-3005-A6BE3AA1BACC</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59D91539-1B39-852D-A13E-4617B2E91EA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0FF78A9-A990-A534-8ED4-4607A8B1F23C" name="prescription_doctor_FK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>69207919-9D46-2663-CE73-A4E81324A86F</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBFB8AF5-593A-741D-B0BA-B3D5A62BE338"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDC4EF4C-96B3-37E6-C5D1-82AFCD80D61C" name="prescription_drug_FK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>86DF2378-DD3F-3669-F55B-FEE98E0E67C2</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="557884AC-531F-ED9F-B767-62692A285D4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

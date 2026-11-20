@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4345BFC9-E5D2-3F64-E63E-E0BA37504342" containerWithKeyObject="B0359FCA-710B-55D1-9DA8-784756355E13" localFKIndex="951D1EE1-7950-8568-9E78-6C6772F6A386" name="refillable_rx_prescription_FK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>D8B10015-4F8B-0DB6-85EE-A07DFF535751</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<referredTableLongName>prescription</referredTableLongName>
+<arc>B6AFF771-837A-3F6D-E86B-1DFA71BCA52E</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B497B309-7DE0-5714-5FD2-68A44ECF6126</referredTableID>
+<keyObject>0407321B-39CD-22D8-FC60-98FE4DE617EE</keyObject>
+<referredKeyID>0407321B-39CD-22D8-FC60-98FE4DE617EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>prescription_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

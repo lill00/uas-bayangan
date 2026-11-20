@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88BE6E04-D518-480E-7126-2DC6764032E6" name="doctor_hospital">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:29:07 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="doctor_hospital_id" id="8B47D8EF-7F00-1D8C-E606-2B272147CC82">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:29:37 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="affiliation_date" id="EA10A80A-2863-392C-A9D1-0C32FED346AE">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:30:07 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date" id="D680817D-6B7F-4BE3-6185-9A3D8D2460D0">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:30:31 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="doctor_id" id="13B5190D-DBAC-5EA0-669F-A9A6FB0A68FE">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:47:26 UTC</createdTime>
+<generatorID>254C5FC2-A158-FE9B-7EF8-2A99BE5BAAFC</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<referedAttribute>B73585E7-A75E-4C8F-F3F9-B289EB01426B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hospital_id" id="3BBBE869-5E07-1FE8-95B6-0AA8AD2D0434">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:47:36 UTC</createdTime>
+<generatorID>C28BE55D-4407-BB80-007A-DC42FD7A6B1E</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<referedAttribute>47861341-73CC-5181-7383-059AC7B863FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD9889D1-B25D-9A5C-E48D-2D9353049194" name="doctor_hospital PK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:30:06 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B47D8EF-7F00-1D8C-E606-2B272147CC82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

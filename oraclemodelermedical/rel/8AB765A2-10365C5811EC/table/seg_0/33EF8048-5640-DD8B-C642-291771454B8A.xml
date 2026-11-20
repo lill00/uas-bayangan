@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33EF8048-5640-DD8B-C642-291771454B8A" name="FOLLOW_UP_VISIT">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>F45CCB3F-DE92-DD18-4932-F96B9C6B5126</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="visit_id" id="72D48CBC-5524-A52A-964E-33BD41787033">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>6E5BE4C7-9868-BE0A-3EEE-F26992887804</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7658CBC7-4739-F559-6E04-60DC60813EB5" referredColumn="A04AF76F-2CE6-232F-14D8-1D4D1770A1A4"/>
+</associations>
+</Column>
+<Column name="diagnosis_status" id="750B59C7-7CAB-2C3A-14D0-2AC1103780B7">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>DC576F35-C26C-BCB6-BE83-0ABE3C163DFA</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DF23873-8C74-AC82-0F0D-0643BA844C93" name="FOLLOW_UP_VISIT_PK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>6981E5D3-0A88-D9A0-6A15-AF5F1478D540</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72D48CBC-5524-A52A-964E-33BD41787033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F05FEA6D-AE33-05BF-223F-CC76E53C7E12" name="FOLLOW_UP_VISIT_office_visit_FK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>E14A422C-1ADC-8390-F138-C99587DAA548</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72D48CBC-5524-A52A-964E-33BD41787033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

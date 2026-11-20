@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D731AC5-B5D3-E68E-A9B4-04CEDAAD2A41" containerWithKeyObject="004E69EE-7D71-AF6F-B771-1C168FBC57DA" localFKIndex="BEE05945-57FE-8483-6A77-35C72CE8CD2D" name="ROUTINE_CHECKUP_office_visit_FK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>E0B72009-ED6A-471F-550D-241C5505555D</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<referredTableLongName>office_visit</referredTableLongName>
+<arc>CEA1FEEB-7AB7-03C0-351D-AF35BB691AA0</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EBE65553-2126-6BD8-4F2E-5DCF9800EA18</referredTableID>
+<keyObject>2AD52FF3-072B-A4A0-0D22-7FCAC62678E4</keyObject>
+<referredKeyID>2AD52FF3-072B-A4A0-0D22-7FCAC62678E4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>visit_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

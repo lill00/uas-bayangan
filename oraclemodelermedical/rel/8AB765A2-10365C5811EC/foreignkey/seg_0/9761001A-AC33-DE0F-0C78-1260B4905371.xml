@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9761001A-AC33-DE0F-0C78-1260B4905371" containerWithKeyObject="B497B309-7DE0-5714-5FD2-68A44ECF6126" localFKIndex="D252618A-F2CD-F742-A793-12ECDE9EE497" name="prescription_patient_FK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 03:13:19 UTC</createdTime>
+<generatorID>1C6FBB53-4B80-6F35-3005-A6BE3AA1BACC</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<referredTableLongName>patient</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>599F95EA-7C0A-2B7B-4462-D66E50B78C5C</referredTableID>
+<keyObject>B4553442-8ADB-E595-2F27-04065571A655</keyObject>
+<referredKeyID>B4553442-8ADB-E595-2F27-04065571A655</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>patient_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

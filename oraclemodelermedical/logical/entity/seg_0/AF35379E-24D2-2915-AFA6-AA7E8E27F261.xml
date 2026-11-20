@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF35379E-24D2-2915-AFA6-AA7E8E27F261" name="prescription">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:20:50 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prescription_id" id="E3C9122F-0CE4-2799-C8D5-B6FB0B2B9870">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:21:07 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prescription_date" id="22F9E483-D874-FFB3-A62D-DED799DF1D18">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:21:23 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dosage" id="C7CE4475-F1EA-2AC0-9839-001839A70B5E">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:21:44 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duration" id="6D862DF5-655B-3F35-5449-DBE501B36E00">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:22:19 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drug_id" id="A2E1C892-7C29-029B-4DFF-87565BAFFC9E">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:46:58 UTC</createdTime>
+<generatorID>86DF2378-DD3F-3669-F55B-FEE98E0E67C2</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<referedAttribute>2F63418B-E814-7E9C-5CEA-E5DEC28EEDF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patient_id1" id="743E75C7-3D74-F5D3-D60D-BD8D624650CE">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:53:55 UTC</createdTime>
+<generatorID>1C6FBB53-4B80-6F35-3005-A6BE3AA1BACC</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<referedAttribute>013258FD-8B6C-F123-BB18-0645712A7DAB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="doctor_id" id="73D298A9-BFF8-E817-B8A3-B204E6F841DE">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:55:22 UTC</createdTime>
+<generatorID>69207919-9D46-2663-CE73-A4E81324A86F</generatorID>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<referedAttribute>B73585E7-A75E-4C8F-F3F9-B289EB01426B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4F6FE8F-4D9B-03D0-85D6-6CCAA80AF7B7" name="prescription PK">
+<createdBy>Aida Husna</createdBy>
+<createdTime>2026-11-20 02:21:21 UTC</createdTime>
+<ownerDesignName>oraclemodelermedical</ownerDesignName>
+<engineerTo>
+<item key="8AB765A2-62A2-DFB6-D2F2-10365C5811EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E3C9122F-0CE4-2799-C8D5-B6FB0B2B9870</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
